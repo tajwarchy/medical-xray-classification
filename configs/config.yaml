@@ -1,0 +1,27 @@
+# Dataset
+data_root: "data/chexpert"
+image_size: 320
+frontal_only: true
+uncertainty_policy: "ones"   # zeros | ones | ignore
+
+# Model
+model_name: "densenet121"
+use_attention: true
+num_classes: 14
+pretrained: true
+
+# Training
+batch_size: 32
+num_workers: 4
+epochs_frozen: 5             # Phase A: backbone frozen
+epochs_finetune: 15          # Phase B: full fine-tuning
+lr_frozen: 1.0e-3
+lr_finetune: 1.0e-4
+weight_decay: 1.0e-5
+
+# Scheduler
+scheduler: "cosine"
+
+# Output
+output_dir: "outputs"
+checkpoint_dir: "outputs/checkpoints"
