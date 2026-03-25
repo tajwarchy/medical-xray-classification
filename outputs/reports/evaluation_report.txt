@@ -1,0 +1,39 @@
+=================================================================
+  CheXpert Clinical Evaluation Report
+=================================================================
+  Model         : DenseNet-121 + Channel Attention
+  Image size    : 160x160
+  Val samples   : 202
+  Unc. policy   : ones
+
+  Competition Labels (CheXpert 5):
+  Label                           AUC   Sens   Spec     F1   Thresh
+  ------------------------------------------------------------
+  Cardiomegaly                  0.852  0.864  0.728  0.713    0.341 ◄
+  Edema                         0.901  0.833  0.875  0.722    0.500 ◄
+  Consolidation                 0.878  0.969  0.629  0.492    0.427 ◄
+  Atelectasis                   0.823  0.853  0.654  0.699    0.408
+  Pleural Effusion              0.911  0.875  0.804  0.762    0.379 ◄
+
+  Mean Competition AUC : 0.8730
+  Target (≥0.85)       : ✅ ACHIEVED
+
+  All Labels:
+  Label                           AUC   Sens   Spec     F1
+  -------------------------------------------------------
+  No Finding                    0.921  1.000  0.739  0.531
+  Enlarged Cardiomediastinum    0.599  0.886  0.278  0.694
+  Cardiomegaly                  0.852  0.864  0.728  0.713
+  Lung Opacity                  0.894  0.795  0.859  0.838
+  Lung Lesion                   0.124  1.000  0.124  0.011
+  Edema                         0.901  0.833  0.875  0.722
+  Consolidation                 0.878  0.969  0.629  0.492
+  Pneumonia                     0.787  0.875  0.686  0.184
+  Atelectasis                   0.823  0.853  0.654  0.699
+  Pneumothorax                  0.773  0.714  0.841  0.233
+  Pleural Effusion              0.911  0.875  0.804  0.762
+  Pleural Other                 0.846  1.000  0.846  0.061
+  Fracture                        nan    nan    nan    nan
+  Support Devices               0.732  0.545  0.883  0.655
+
+=================================================================
