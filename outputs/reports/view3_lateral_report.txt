@@ -1,0 +1,30 @@
+============================================================
+  CheXpert Inference Report
+============================================================
+  Image          : view3_lateral.jpg
+  Inference time : 0.0ms
+
+  ── Competition Labels ──────────────────────────────
+  [NORMAL]  Cardiomegaly                  21.6%  [████░░░░░░░░░░░░░░░░]
+  [NORMAL]  Edema                         15.9%  [███░░░░░░░░░░░░░░░░░]
+  [FINDING] Consolidation                 55.8%  [███████████░░░░░░░░░]
+  [FINDING] Atelectasis                   42.6%  [████████░░░░░░░░░░░░]
+  [FINDING] Pleural Effusion              69.3%  [█████████████░░░░░░░]
+
+  ── All Labels ──────────────────────────────────────
+  [ ] No Finding                      17.7%  (thresh=0.679)
+  [+] Enlarged Cardiomediastinum      56.3%  (thresh=0.431)
+  [ ] Cardiomegaly                    21.6%  (thresh=0.341)
+  [+] Lung Opacity                    59.5%  (thresh=0.432)
+  [+] Lung Lesion                     72.6%  (thresh=0.235)
+  [ ] Edema                           15.9%  (thresh=0.500)
+  [+] Consolidation                   55.8%  (thresh=0.427)
+  [+] Pneumonia                       52.9%  (thresh=0.470)
+  [+] Atelectasis                     42.6%  (thresh=0.408)
+  [+] Pneumothorax                    68.3%  (thresh=0.636)
+  [+] Pleural Effusion                69.3%  (thresh=0.379)
+  [+] Pleural Other                   83.4%  (thresh=0.566)
+  [+] Fracture                        55.2%  (thresh=0.500)
+  [ ] Support Devices                 30.3%  (thresh=0.516)
+
+============================================================
